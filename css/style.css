@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #ffffff;
+    --padding-base: 15px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 12px 25px;
+}
+.nav2 {
+    display: flex;
+    gap: 50px;
+    padding: 12px 25px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 10px;
+    
+}
+
+.hero {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 624px;
+}
+
+
+.hero h1 {
+    font-size: 80px;
+     margin-bottom: 40px;
+    margin-top: 40px; 
+    line-height: 1;
+}
+
+.hero h3 {
+    font-size: 20px;
+}
+
+.hero p {
+    font-size: 17px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.cards1 {
+    display: flex;
+    align-items: center;
+    padding: 70px 0px 0px 43%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 32px;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+
+/* :root {
+    --color: #ffffff;
+
+    
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+}
+
+main 
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.nav__link {
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: color 0.2s ease;
+}
+
+.nav__link:hover {
+    color: #4a90e2;
+}
+
+.nav__link:focus {
+    outline: 2px solid #4a90e2;
+    outline-offset: 2px;
+}
+
+.nav__link:active {
+    transform: scale(0.98);
+}
+
+.nav::before {
+    content: 'ꕥ';
+}
+
+.button {
+    margin: 5px;
+    padding: 15px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    color: azure;
+    background-color: rgb(121, 121, 121);
+    transform: translateY(-3px);
+    padding: 20px 20px;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.button:focus {
+    outline: 2px solid #3f4246;
+    outline-offset: 2px;
+}
+
+input::placeholder {
+    color: rgb(187, 85, 95);
+    font-style: italic;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: fadeInUp 0.5s ease forwards;
+    opacity: 0;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #555;
+    border-radius: 20px;
+    padding: 25px;
+    align-items: center;
+} */
